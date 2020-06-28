@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天气</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+        <div class="box">
+            <div class="sun">
+                <div class="face">
+                    <div class="pupil-left"></div>
+                    <div class="pupil-right"></div>
+                    <div class="smile"></div>
+                </div>
+
+                <div class="ray">
+                    <div class="beam r1"></div>
+                    <div class="beam r2"></div>
+                    <div class="beam r3"></div>
+                    <div class="beam r4"></div>
+                    <div class="beam r5"></div>
+                    <div class="beam r6"></div>
+                    <div class="beam r7"></div>
+                    <div class="beam r8"></div>
+                    <div class="beam r9"></div>
+                    <div class="beam r10"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="TianQi">
+            <div class="windinfo">
+                <p>风级：{{ wind.power }},风向：{{ wind.direct }}</p>
+            </div>
+            <div class="city">
+                <p>城市：{{ city }}</p>
+            </div>
+            <div class="date">
+                <p>日期：{{ date }}</p>
+            </div>
+            <div class="Jamly_info">
+                <p>来自号号的温馨提示：
+                    {{ kongtiao.1 }}<br>
+                    {{ sport.1 }}<br>
+                    {{ ziwaixian.1 }}<br>
+                    {{ ganmao.1 }}
+                </p>
+            </div>
+            {{ day }}
+            {{ dawn }}
+            {{ night }}
+        </div>
+</body>
+</html>
