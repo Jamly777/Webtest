@@ -26,7 +26,7 @@ MarkupSafe==1.1.1
 marvel==0.1.0
 multidict==4.7.5
 mysqlclient==1.4.6
-paramiko==2.7.1
+paramiko==2.10.1
 prettytable==0.7.2
 pycparser==2.20
 pyecharts==1.6.2
